@@ -21,3 +21,11 @@ describe '#speak_to_grandma' do
   end
 
 end
+
+def speak_to_grandma()
+  if #{speak_to_grandma} = 'I LOVE YOU GRANDMA!'
+    puts  "i love you too pumpkin".upcase
+  elseif #{speak_to_grandma} = 'Hi Nana, how are you?'
+    puts  "huh?! speak up, sonny!".upcase
+  elseif #{speak_to_grandma} = 'Hi Nana, how are you?'
+    puts  "huh?! speak up, sonny!".upcase
