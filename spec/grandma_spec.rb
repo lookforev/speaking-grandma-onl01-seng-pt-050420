@@ -27,5 +27,7 @@ def speak_to_grandma()
     puts  "i love you too pumpkin".upcase
   elseif #{speak_to_grandma} = 'Hi Nana, how are you?'
     puts  "huh?! speak up, sonny!".upcase
-  elseif #{speak_to_grandma} = 'Hi Nana, how are you?'
+  elseif #{speak_to_grandma} = 'Hi!'
     puts  "huh?! speak up, sonny!".upcase
+  elseif #{speak_to_grandma} = 'WHAT DID YOU EAT TODAY?'
+    puts  "no, not since 1938!".upcase
