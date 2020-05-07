@@ -31,3 +31,5 @@ def speak_to_grandma()
     puts  "huh?! speak up, sonny!".upcase
   elseif #{speak_to_grandma} = 'WHAT DID YOU EAT TODAY?'
     puts  "no, not since 1938!".upcase
+  elseif #{speak_to_grandma} = 'WHAT DID YOU EAT TODAY?'
+    puts  "no, not since 1938!".upcase
