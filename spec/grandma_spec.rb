@@ -20,3 +20,8 @@ describe '#speak_to_grandma' do
   end
 
 end
+
+def speak_to_grandma()
+  if speak_to_grandma == speak_to_grandma.upcase
+    puts "NO, NOT SINCE 1938!"
+end
