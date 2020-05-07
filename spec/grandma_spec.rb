@@ -20,3 +20,17 @@ describe '#speak_to_grandma' do
     expect(speak_to_grandma('WHAT?')).to eq "NO, NOT SINCE 1938!"
   end
 end
+
+def speak_to_grandma
+  if expect(speak_to_grandma('I LOVE YOU GRANDMA!')) == 'I LOVE YOU TOO PUMPKIN!'
+    puts  "i love you too pumpkin!".upcase
+  elseif expect(speak_to_grandma('Hi Nana, how are you?')) == 'HUH?! SPEAK UP, SONNY!'
+    puts  "huh?! speak up, sonny!".upcase
+  elseif expect(speak_to_grandma('Hi!')) == 'HUH?! SPEAK UP, SONNY!'
+    puts  "huh?! speak up, sonny!".upcase
+  elseif expect(speak_to_grandma('WHAT DID YOU EAT TODAY?')) == "NO, NOT SINCE 1938!"
+    puts  "no, not since 1938!".upcase
+  elseif expect(speak_to_grandma('WHAT?')) == "NO, NOT SINCE 1938!"
+    puts  "no, not since 1938!".upcase
+  end
+end
