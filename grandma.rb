@@ -13,7 +13,9 @@
 # 'I LOVE YOU TOO PUMPKIN!'
 
 def speak_to_grandma
-  if speak_to_grandma == speak_to_grandma.upcase
+  if 
+    
+  else speak_to_grandma == speak_to_grandma.upcase
     puts "NO, NOT SINCE 1983!"
   end
 end
